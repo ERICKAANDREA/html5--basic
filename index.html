@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Introducción a HTML5, CSS3 y JavaScript</title>
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo1">Introducción a HTML5, CSS3 y JavaScript</h1>
+        <h2 class="titulo2">Los pilares del desarrollo moderno</h2>
+    </header>
+    <main>
+        <section>
+            
+                <h3>Qué son?</h3>
+                <article>
+                    <h4 class="titulo4">¿Qué es HTML5?</h4>
+                    <p>HTML5 es la quinta versión del Lenguaje de Marcado de Hipertexto (HyperText Markup Language), el estándar utilizado para estructurar el contenido de las páginas web.</p>
+                    <ul>
+                        <li>Próposito:</li>
+                        <p>HTML5 organiza el contenido de una página en elementos como encabezados, párrafos, imágenes, tablas, listas, y multimedia (audio y video).</p>
+                        <li>Características clave:
+                            <ul>
+                                <li>Soporte nativo para contenido multimedia, como "audio" y "video".</li> 
+                                <li>Introducción de nuevas etiquetas semánticas como "article", "section", y "header" que mejoran la accesibilidad y la optimización en motores de búsqueda (SEO).</li> 
+                                <li>Compatible con tecnologías modernas como aplicaciones web progresivas (PWAs).</li> 
+                            </ul>
+                        </li>
+                        <li>Ejemplo:
+                            <br>
+                            <br>
+                            <img src="img/estructuraHtml.PNG"> 
+                        </li>                  
+                    </ul>
+                </article>
+                <article>
+                    <h4 class="titulo4">¿Qué es CSS3?</h4>
+                    <p>CSS3 (Cascading Style Sheets, nivel 3) es el lenguaje de diseño que se utiliza para definir el aspecto visual de las páginas web.</p>
+                    <ul>
+                        <li>Próposito:</li>
+                        <p>CSS3 estiliza los elementos definidos en HTML5, controlando colores, fuentes, tamaños, posiciones y animaciones, entre otros aspectos visuales.
+                        </p>
+                        <li>Características clave:
+                            <ul>
+                                <li>Nuevas propiedades como gradientes, sombras, y bordes redondeados.</li> 
+                                <li>Animaciones y transiciones sin necesidad de JavaScript.</li> 
+                                <li>Sistema de diseño avanzado con flexbox y grid.</li> 
+                            </ul>
+                        </li>
+                        <li>Ejemplo:
+                            <br>
+                            <br>
+                            <img src="img/estructuraCss3.PNG">
+                        </li>                   
+                    </ul>
+                </article>
+
+                <article>
+                    <h4 class="titulo4">¿Qué es JavaScript?</h4>
+                    <p>JavaScript es un lenguaje de programación interpretado, esencial para agregar funcionalidad dinámica e interactividad a las páginas web.</p>
+                    <ul>
+                        <li>Próposito:</li>
+                        <p>Permite que las páginas web respondan a las acciones de los usuarios, como hacer clic en botones, rellenar formularios o cargar contenido dinámico sin recargar la página.
+                        </p>
+                        <li>Características clave:
+                            <ul>
+                                <li>Manipulación del DOM (Document Object Model), que permite modificar el contenido y el diseño en tiempo real.</li> 
+                                <li>Animaciones y transiciones sin necesidad de JavaScript.Compatibilidad con bibliotecas y frameworks como React, Vue, y Angular.</li> 
+                                <li>Uso tanto en el cliente (navegador) como en el servidor (Node.js).</li> 
+                            </ul>
+                        </li>
+                        <li>Ejemplo:
+                            <br>
+                            <br>
+                            <img src="img/estructuraJavascript.PNG">   
+                        </li>                
+                    </ul>
+                </article>
+        </section>
+        <section>
+            <h2 class="tabla">Comparativa entre HTML5, CSS3 y JavaScript</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>HTML5</th>
+                        <th>CSS3</th>
+                        <th>JavaScript</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Propósito</td>
+                        <td>Estructurar contenido</td>
+                        <td>Estilizar contenido</td>
+                        <td>Agregar interactividad</td>
+                    </tr>
+                    <tr>
+                        <td>Dependencia</td>
+                        <td>Independiente</td>
+                        <td>Depende de HTML</td>
+                        <td>Depende de HTML y CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Lenguaje</td>
+                        <td>Marcado</td>
+                        <td>Hojas de estilo</td>
+                        <td>Programación</td>
+                    </tr>
+                    <tr>
+                        <td>Ejemplo de uso</td>
+                        <td>&lt;h1&gt;Hola&lt;/h1&gt;</td>
+                        <td>color: red;</td>
+                        <td>alert("Hola");</td>
+                    </tr>
+                    <tr>
+                        <td>Soporte para</td>
+                        <td>Texto, imágenes, videos</td>
+                        <td>Diseño visual</td>
+                        <td>Eventos, lógica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class="formulario">Formulario de Conocimientos</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                
+                <label for="favorito">¿Cuál es tu tecnología favorita?</label>
+                <select id="favorito" name="favorito" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="html5">HTML5</option>
+                    <option value="css3">CSS3</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+                
+                <label for="pregunta">¿Qué etiqueta se usa para un párrafo en HTML5?</label>
+                <input type="text" id="pregunta" name="pregunta" placeholder="Tu respuesta" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+        <section id="interactividad">
+            <h3 class="seccion-titulo">Prueba de interactividad</h3>
+
+            <button id="boton-mensaje" class="boton">Mostrar mensaje</button>
+
+            <button id="boton-cambiar" class="boton">Cambiar contenido</button>
+
+            <p id="parrafo" class="descripcion">Este texto cambiará al hacer clic en el botón.</p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Gracias por visitar nuestra página. Aprende más sobre desarrollo web en nuestro <a href="contacto.html">sitio de contacto</a>.</p>
+        <p>&copy; 2024 Introducción a HTML, CSS y JavaScript</p>
+    </footer>
+
+    <script src="/js/interactividad.js"></script>
+    
+
+</body>
+</html>
